@@ -1,12 +1,11 @@
 import './App.css';
-import QRCode from './assets/image-qr-code.png';
 
 function App() {
   return (
     <>
       <div>
         <div className="m-4 flex h-[34rem] w-[22rem] flex-col items-center justify-start gap-5 rounded-2xl bg-white p-6">
-          <img src={QRCode} alt="" className="size-80 rounded-2xl" />
+          <img src="./image-qr-code.png" alt="" className="size-80 rounded-2xl" />
 
           <p className="font-outfit text-2xl font-bold text-gray-900">
             Improve your front-end skills by building projects
